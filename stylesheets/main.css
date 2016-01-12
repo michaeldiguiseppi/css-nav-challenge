@@ -1,0 +1,35 @@
+nav a {
+    display: inline-block;
+    color: #C8C8C8;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #444444;
+}
+
+
+a:hover {
+    background-color: #BBBBBB;
+    color: #5E5E5E;
+}
+
+.dropdown {
+    display: none;
+    width: 5%;
+    margin-left: 3%;
+    position: absolute;
+}
+
+
+.dropdown-menu:hover .dropdown {
+    display: block;
+}
+
+.sub-dropdown {
+    display: none;
+}
+
+.jobs:hover .sub-dropdown {
+    display: block;
+}
